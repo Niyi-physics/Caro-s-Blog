@@ -17,8 +17,22 @@ a:hover {
 .carousel-item img {
     width: 100%;
 }
+.navbar .navbar-nav a{
+    color: #fff !important; 
+}
 */
 /*For Navigation panel*/
+.mynav {
+    background-color: transparent !important;
+}
+.navbar .navbar-brand {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+.navbar .navbar-nav {
+    margin: 0 auto;
+}
 
 
 /*For Loginpage*/
