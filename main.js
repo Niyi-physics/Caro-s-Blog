@@ -1,8 +1,3 @@
-/*
-var fadein = $('div.fadein');
-$.each(fadein, function(i, item) {
-	setTimeout(function() {
-		$(item).fadeIn(1000); // duration of fadein
-	}, 1000 * i); // duration between fadeins
-});​
-*/
+$(document).ready(function(){
+    $(".fadeIn").fadeIn(1000);
+});

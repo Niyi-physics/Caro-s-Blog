@@ -9,6 +9,31 @@ footer {
     width: 100%;
     height: 2.5rem;            
 }
+/*
+a:hover {
+    color: #fff;
+    
+}
+.carousel-item img {
+    width: 100%;
+}
+.navbar .navbar-nav a{
+    color: #fff !important; 
+}
+*/
+/*For Navigation panel*/
+.mynav {
+    background-color: transparent !important;
+}
+.navbar .navbar-brand {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+.navbar .navbar-nav {
+    margin: 0 auto;
+}
+
 
 /*For Loginpage*/
 .log {
@@ -16,4 +41,17 @@ footer {
     vertical-align: middle;
     margin-top: 150px;
 }
+/*For Slideshow*/
+.carousel-item {
+    height: 450px;
+    overflow: hidden;
+    width: 100%;
+}
+.carousel-inner > .carousel-item > img{
+    margin:auto;
+    }
+
+
+
+
 
