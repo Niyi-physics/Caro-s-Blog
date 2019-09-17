@@ -10,6 +10,10 @@ footer {
     height: 2.5rem;            
 }
 
+a:hover {
+    color: #fff;
+}
+
 /*For Loginpage*/
 .log {
     max-width: 400px;
