@@ -13,6 +13,9 @@ footer {
 a:hover {
     color: #fff;
 }
+.carousel-item img {
+    width: 100%;
+}
 */
 
 /*For Loginpage*/
@@ -21,4 +24,14 @@ a:hover {
     vertical-align: middle;
     margin-top: 150px;
 }
+/*For Slideshow*/
+.carousel-item {
+    height: 450px;
+    overflow: hidden;
+    width: 100%;
+}
+.carousel-inner > .carousel-item > img{
+    margin:auto;
+    }
+
 
