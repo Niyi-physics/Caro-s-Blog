@@ -12,11 +12,14 @@ footer {
 /*
 a:hover {
     color: #fff;
+    
 }
 .carousel-item img {
     width: 100%;
 }
 */
+/*For Navigation panel*/
+
 
 /*For Loginpage*/
 .log {
@@ -33,5 +36,8 @@ a:hover {
 .carousel-inner > .carousel-item > img{
     margin:auto;
     }
+
+
+
 
 
