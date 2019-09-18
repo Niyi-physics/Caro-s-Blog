@@ -63,8 +63,14 @@ footer {
 .profile {
     margin-right: 40px;
 }
- 
-
-
-
-
+/*For Contact*/
+.bt {
+    background: url("image/white.jpg") no-repeat;
+    width: 100%;
+    background-size: 100%;
+}
+@media only screen and (max-width: 678px) {
+    .bt {
+        background-size: 300%;
+    }
+}
