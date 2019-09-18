@@ -45,6 +45,10 @@ footer {
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px #000; 
 }
+.lg {
+    color: #000;
+    margin-left: 150px;
+}
 /*For Slideshow*/
 .carousel-item {
     height: 450px;
