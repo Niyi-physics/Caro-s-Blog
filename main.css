@@ -65,7 +65,16 @@ a:hover {
 .carousel-inner > .carousel-item > img{
     margin:auto;
     }
-
+/*For Profile*/
+.bk {
+    background: url("image/white.jpg") no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+}
+.profile {
+    margin-right: 40px;
+}
 
 
 
