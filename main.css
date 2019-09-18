@@ -64,8 +64,18 @@ footer {
     margin-right: 40px;
 }
 /*For Contact*/
+.contact-form {
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    margin-top: 90px;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 10px 3px grey;
+}
+hr {
+    background: #fff;
+}
 .bt {
-    background: url("image/white.jpg") no-repeat;
+    background: url("image/bk.jpg") no-repeat;
     width: 100%;
     background-size: 100%;
 }
