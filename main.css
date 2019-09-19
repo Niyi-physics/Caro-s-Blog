@@ -88,3 +88,13 @@ hr {
         background-size: 300%;
     }
 }
+/*For News*/
+.left-side {
+    margin-right: 40px;
+}
+.container {
+    margin-top: 10px;
+}
+.t {
+    color: #fff;
+}
