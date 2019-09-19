@@ -1,8 +1,35 @@
 $(document).ready(function(){
-    $("#password_error_message").hide();
-    var error_password = false;
-    
+    //login button
+    $("#doo").click(function() {
+        $.post("db.json", {
+            email: you@example.com,
+            password: 123456789
+        }, function(data,status){
+            $("#login").html(data);
+        });
+    });
+    //search
+    $("#search").click(function() {
+        $.get("db.json", function(data,status) {
+            $("text").html(data);
+            alert(status);
+        })
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
     function check_password() {
+    
         var password_length = $("#form_password").val().length
         if(password_length < 8) {
             $("#password_error_message").html("Atleast 8 characters");
