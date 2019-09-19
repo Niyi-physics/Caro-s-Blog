@@ -98,3 +98,16 @@ hr {
 .t {
     color: #fff;
 }
+
+/*background for pages*/
+.bg {
+    background: url("image/bg.jpg") no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+}
+@media only screen and (max-width: 678px) {
+    .bg {
+        background-size: 300%;
+    }
+}
