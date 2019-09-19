@@ -1,0 +1,27 @@
+{
+  "posts": [
+    {
+      "title": "the boy",
+      "content": "the boy fitler",
+      "category": "boxing",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "body": "Thank you",
+      "postId": "1",
+      "id": 2
+    }
+  ],
+  "user": {
+    "name": "john doe",
+    "email": "you@example.com",
+    "password": "123456789"
+  }
+}
